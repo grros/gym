@@ -1,0 +1,63 @@
+.tariff-list{
+	background: #f4f4f4;
+	border-radius: 10px;
+	padding: 0 10px;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+.tariff-list.light{
+	background:#e1f1fb;
+}
+.tariff-list table{
+	width: 100%;
+}
+.tariff-list table td{
+	border-bottom:solid 1px #d0d0d0;
+	padding:15px 0;
+}
+@media (max-width: 767px) {
+	.tariff-list table td{
+		vertical-align: top;
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+}
+.tariff-list table tr:last-child td{
+	border-bottom: none;
+}
+.tariff-list .tariff_title{
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: "MyriadProSemiBold","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color:#404040;
+}
+.tariff-list .price{
+	color:#ce232e;
+	font-size: 28px;
+	font-family: "MyriadProSemiBold","Helvetica Neue",Helvetica,Arial,sans-serif;
+	white-space: nowrap;
+}
+/*@media (max-width: 767px) {
+	.tariff-list .price{
+		font-size: 16px;
+	}
+}*/
+.tariff-list .price i{
+	font-size: 17px;
+}
+.tariff-list .price .price_descr{
+	font-size: 12px;
+}
+.tariff-list .buybtn{
+	background: #ce232e;
+	display: inline-block;
+	padding:3px 20px;
+	color:#FFF;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.tariff-list .buybtn:hover{
+	background: #1a2b5e;
+}
+.tariff-list .action_counter p{font-size: 11px;margin-bottom: 4px;}

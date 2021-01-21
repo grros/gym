@@ -1,0 +1,85 @@
+#main_slider{
+	height: 354px;
+	overflow: hidden;
+}
+#main_slider ul{
+	margin:0;
+	padding:0;
+}
+#main_slider .bx-wrapper{
+	box-shadow: none;
+	-webkit-box-shadow:none;
+	border-radius: 10px;
+	border:none;
+	z-index: 1;
+	overflow: hidden;
+	margin-bottom: 0;
+}
+#main_slider .bx-wrapper .bx-pager{
+	bottom: 10px;
+	text-align: right;
+}
+#main_slider .bx-caption{
+	background: rgba(255, 255, 255, 0.5);
+	height: 70px;
+	line-height: 70px;
+	color:#FFF;
+	white-space: nowrap;
+	overflow: hidden;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: "MyriadProSemiBold";
+	text-shadow:1px 1px 1px rgba(0,0,0,0.8);
+}
+#main_slider .bx-caption > div{
+	min-width:212px;
+	background: #ce232e;
+	display: inline-block;
+	height: 70px;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 22px;
+	vertical-align: top;
+	text-align: center;
+	margin-right: 10px;
+}
+@media (min-width: 1200px) {
+	#main_slider .bx-caption > div{
+		min-width:263px;
+	}
+}
+#main_slider .bx-wrapper .bx-pager.bx-default-pager a:hover,
+#main_slider .bx-wrapper .bx-pager.bx-default-pager a.active,
+#main_slider .bx-wrapper .bx-pager.bx-default-pager a:focus{
+	background: #1a2b5e;
+}
+#main_slider .bx-wrapper .bx-pager.bx-default-pager a{background: #FFF;}
+
+
+.main_slider .pagination{
+	position: absolute;
+    bottom: 25px;
+    right: 25px;
+    z-index: 120;
+}
+.main_slider .pagination li{
+	width:12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: white;
+	text-indent: -1000px;
+	overflow: hidden;
+}
+.main_slider .pagination li.current{
+	background-color: #14264e;
+}
+.main_slider .caption{
+	background: rgba(255, 255, 255, 0.5) !important;
+	color:#FFF !important;
+	white-space: nowrap !important;
+	overflow: hidden !important;
+	text-transform: uppercase !important;
+	font-size: 20px !important;
+	font-family: "MyriadProSemiBold" !important;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.8) !important;
+}
