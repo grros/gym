@@ -1,0 +1,19 @@
+.more_params{
+	display:none;
+}
+.more_params_link{
+	font-size: 10px;
+	color:#878787;
+	text-decoration: none;
+	border-bottom:dotted 1px #878787;
+	outline: none !important;
+}
+.more_params_link:hover{
+	color:#878787;
+	text-decoration: none;
+	border-bottom:none;
+}
+.more_params_link:active, .more_params_link:focus{
+	color:#878787;
+	text-decoration: none;
+}

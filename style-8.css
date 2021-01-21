@@ -1,0 +1,8 @@
+.search-form input{
+	width: 100%;
+	background: #48567f url("search_ico.png") no-repeat 96% 48%;
+	border:none;
+	padding:3px 30px 3px 10px;
+	outline: none !important;
+	border-radius: 11px;
+}

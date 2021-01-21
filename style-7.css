@@ -1,0 +1,17 @@
+.bottom-menu{
+	margin:5px 0 0 0;
+	padding:0;
+	list-style: none;
+}
+.bottom-menu li{
+	display: inline-block;
+	margin-right:30px;
+	text-transform: uppercase;
+}
+.bottom-menu li a{
+	color:#FFF;
+	text-decoration: none
+}
+.bottom-menu li a:hover{
+	text-decoration: underline;
+}

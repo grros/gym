@@ -1,0 +1,31 @@
+.left-menu{
+	margin:0 0 20px 0;
+	padding:10px 0 0 0;
+	list-style: none;
+	background: #ce232e;
+	border-radius: 10px;
+	color:#FFF;
+	overflow: hidden;
+}
+.left-menu li:last-child{
+	text-transform: uppercase;
+	background: #1a2b5e;
+	font-family: "MyriadProSemiBold";
+	font-size: 21px;
+	margin-top:10px;
+}
+@media (max-width: 991px) {
+	.left-menu li{
+		text-align: center;
+		border-bottom: solid 1px #A7040F;
+	}
+	.left-menu li:last-child{
+		border-bottom: none;
+	}
+}
+.left-menu a{
+	color:#FFF;
+	text-decoration: none;
+	display: block;
+	padding:10px 20px;
+}

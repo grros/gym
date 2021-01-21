@@ -1,0 +1,10 @@
+.news-on-index{
+	font-size: 12px;
+}
+.news-on-index .preview_picture_wrap{
+	width:145px;
+	height: 82px;
+	overflow: hidden;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
